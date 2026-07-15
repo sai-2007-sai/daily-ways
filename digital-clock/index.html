@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Timezone Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⏰ Digital Clock - Multiple Timezones</h1>
+        
+        <div class="controls">
+            <input type="text" id="cityInput" placeholder="Enter city name or timezone (e.g., 'New York', 'Tokyo')">
+            <button id="addBtn">Add Timezone</button>
+            <button id="resetBtn">Reset to Default</button>
+        </div>
+
+        <div class="clock-grid" id="clockGrid">
+            <!-- Clocks will be dynamically added here -->
+        </div>
+
+        <div class="info">
+            <p>💡 Tip: Add timezones by city name (e.g., New York, London, Tokyo, Sydney)</p>
+            <p>🌍 Timezone format: UTC±HH:MM or use common timezone identifiers</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
